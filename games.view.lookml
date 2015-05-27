@@ -8,6 +8,10 @@
   - dimension: attend_park_ct
     type: int
     sql: ${TABLE}.ATTEND_PARK_CT
+    
+  - dimension: team_matchup
+    type: string
+    sql: concat(${home_team.name_team_tx},' vs. ',${away_team.name_team_tx})
 
   - dimension: away_err_ct
     type: int
