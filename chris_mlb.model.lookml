@@ -11,11 +11,11 @@
 
 - explore: games
   joins:
-    - join: away_team_id
+    - join: away_team
       from: teams
       foreign_key: away_team_id
     
-    - join: home_team_id
+    - join: home_team
       from: teams
       foreign_key: home_team_id
     
