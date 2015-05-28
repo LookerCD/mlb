@@ -16,15 +16,15 @@
   - dimension: player_id
     sql: ${TABLE}.PLAYER_ID
 
-  - dimension: pos_tx
+  - dimension: position
     sql: ${TABLE}.POS_TX
 
   - dimension: team_id
     # hidden: true
     sql: ${TABLE}.TEAM_ID
 
-  - dimension: team_tx
-    sql: ${TABLE}.TEAM_TX
+#   - dimension: team_tx
+#     sql: ${TABLE}.TEAM_TX
 
   - dimension: year_id
     type: int
