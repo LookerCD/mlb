@@ -58,10 +58,10 @@
 # 
 # - explore: parkcode
 # 
-- explore: rosters
-  joins:
-    - join: teams
-      foreign_key: team_id
+# - explore: rosters
+#   joins:
+#     - join: teams
+#       foreign_key: team_id
 # 
 # 
 # - explore: subs

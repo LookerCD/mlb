@@ -1,4 +1,4 @@
-- explore: teams
+# - explore: teams
 
 - view: teams
   fields:
