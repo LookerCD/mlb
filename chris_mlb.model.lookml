@@ -18,6 +18,9 @@
     - join: home_team
       from: teams
       foreign_key: home_team_id
+      
+    - join: rosters
+      sql_on: ${games.save_pitcher_id} = ${rosters.player_id}
     
 # - explore: id
 # 
@@ -55,10 +58,10 @@
 # 
 # - explore: parkcode
 # 
-# - explore: rosters
-#   joins:
-#     - join: teams
-#       foreign_key: team_id
+- explore: rosters
+  joins:
+    - join: teams
+      foreign_key: team_id
 # 
 # 
 # - explore: subs

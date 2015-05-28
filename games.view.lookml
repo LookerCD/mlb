@@ -12,6 +12,10 @@
   - dimension: team_matchup
     type: string
     sql: concat(${home_team.name_team_tx},' vs. ',${away_team.name_team_tx})
+    
+  - dimension: player_name
+    type: string
+    sql: concat(${rosters.first_name_tx},' ',${rosters.last_name_tx})
 
   - dimension: away_error_count
     type: int
