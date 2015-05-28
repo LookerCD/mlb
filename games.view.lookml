@@ -304,7 +304,7 @@
     decimals: 2
     sql: ${TABLE}.ATTEND_PARK_CT
     
-  - measure: home_hits_count
+  - measure: home_hit_count
     type: int
     sql: ${TABLE}.HOME_HITS_CT
     
