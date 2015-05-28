@@ -1,16 +1,16 @@
 - view: rosters
   fields:
 
-  - dimension: bat_hand_cd
+  - dimension: batter_dominant_hand
     sql: ${TABLE}.BAT_HAND_CD
 
-  - dimension: first_name_tx
+  - dimension: first_name
     sql: ${TABLE}.FIRST_NAME_TX
 
-  - dimension: last_name_tx
+  - dimension: last_name
     sql: ${TABLE}.LAST_NAME_TX
 
-  - dimension: pit_hand_cd
+  - dimension: pitcher_dominant_hand
     sql: ${TABLE}.PIT_HAND_CD
 
   - dimension: player_id
