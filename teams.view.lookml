@@ -7,13 +7,13 @@
     primary_key: true
     sql: ${TABLE}.TEAM_ID
 
-  - dimension: lg_id
+  - dimension: league_id
     sql: ${TABLE}.LG_ID
 
-  - dimension: loc_team_tx
+  - dimension: team_location
     sql: ${TABLE}.LOC_TEAM_TX
 
-  - dimension: name_team_tx
+  - dimension: team_name
     sql: ${TABLE}.NAME_TEAM_TX
   
   - dimension: team_name_test

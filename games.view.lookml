@@ -11,11 +11,11 @@
     
   - dimension: team_matchup
     type: string
-    sql: concat(${home_team.name_team_tx},' vs. ',${away_team.name_team_tx})
+    sql: concat(${home_team.team_name},' vs. ',${away_team.team_name})
     
   - dimension: player_name
     type: string
-    sql: concat(${rosters.first_name_tx},' ',${rosters.last_name_tx})
+    sql: concat(${rosters.first_name},' ',${rosters.last_name})
 
   - dimension: away_error_count
     type: int
@@ -319,6 +319,10 @@
   - measure: away_runs_scored
     type: int
     sql: ${TABLE}.AWAY_SCORE_CT
+    
+  - measure: total_runs_scored
+    type: number
+    sql: ${home_runs_scored} + ${away_runs_scored}
     
   - measure: away_hits_count
     type: int
