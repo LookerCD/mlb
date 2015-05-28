@@ -12,11 +12,8 @@
 
   - dimension: team_location
     sql: ${TABLE}.LOC_TEAM_TX
-
-  - dimension: team_name
-    sql: ${TABLE}.NAME_TEAM_TX
   
-  - dimension: team_name_test
+  - dimension: team_name
     sql: UNHEX(TRIM(BOTH '0D' FROM HEX(${name_team_tx})))
 
   - dimension: year_id
