@@ -320,6 +320,10 @@
     type: int
     sql: ${TABLE}.AWAY_SCORE_CT
     
+  - measure: total_runs_scored
+    type: number
+    sql: ${home_runs_scored} + ${away_runs_scored}
+    
   - measure: away_hits_count
     type: int
     sql: ${TABLE}.AWAY_HITS_CT
