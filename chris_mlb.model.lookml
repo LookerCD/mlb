@@ -2,11 +2,11 @@
 
 - include: "*.view.lookml"       # include all the views
 - include: "*.dashboard.lookml"  # include all the dashboards
-
-- explore: events
-  joins:
-    - join: games
-      foreign_key: game_id
+# 
+# - explore: events
+#   joins:
+#     - join: games
+#       foreign_key: game_id
 
 
 - explore: games
@@ -21,8 +21,9 @@
       
     - join: rosters
       sql_on: ${games.save_pitcher_id} = ${rosters.player_id}
+      relationship: many_to_one
     
-# - explore: id
+- explore: id
 # 
 # - explore: lkup_cd_bases
 # 
@@ -58,10 +59,10 @@
 # 
 # - explore: parkcode
 # 
-# - explore: rosters
-#   joins:
-#     - join: teams
-#       foreign_key: team_id
+- explore: rosters
+  joins:
+    - join: teams
+      foreign_key: team_id
 # 
 # 
 # - explore: subs

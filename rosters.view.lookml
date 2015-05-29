@@ -9,6 +9,14 @@
 
   - dimension: last_name
     sql: ${TABLE}.LAST_NAME_TX
+    
+  - dimension: player_last_first
+    type: string
+    sql: concat(${TABLE}.LAST_NAME_TX,', ',${TABLE}.FIRST_NAME_TX)
+    
+  - dimension: player_name
+    type: string
+    sql: concat(${TABLE}.FIRST_NAME_TX,' ',${TABLE}.LAST_NAME_TX)
 
   - dimension: pitcher_dominant_hand
     sql: ${TABLE}.PIT_HAND_CD

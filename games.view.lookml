@@ -134,8 +134,10 @@
     type: int
     sql: ${TABLE}.GAME_CT
 
-  - dimension: game_date
-    type: date
+  - dimension_group: game
+    type: time
+    datatype: yyyymmdd
+    timeframes: [date, week, month, year]
     sql: ${TABLE}.GAME_DT
 
   - dimension: gwrbi_bat_id

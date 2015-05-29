@@ -13,6 +13,10 @@
 
   - dimension: last
     sql: ${TABLE}.last
+    
+  - dimension: player_name
+    type: string
+    sql: concat(${TABLE}.first_name,' ',${TABLE}.last_name)
 
   - measure: count
     type: count
