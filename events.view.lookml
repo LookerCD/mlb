@@ -3,61 +3,61 @@
 
   - dimension: run3_origin_event_id
     primary_key: true
-    type: int
+    type: number
     sql: ${TABLE}.RUN3_ORIGIN_EVENT_ID
 
   - dimension: ab_fl
     sql: ${TABLE}.AB_FL
 
   - dimension: ass10_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS10_FLD_CD
 
   - dimension: ass1_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS1_FLD_CD
 
   - dimension: ass2_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS2_FLD_CD
 
   - dimension: ass3_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS3_FLD_CD
 
   - dimension: ass4_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS4_FLD_CD
 
   - dimension: ass5_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS5_FLD_CD
 
   - dimension: ass6_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS6_FLD_CD
 
   - dimension: ass7_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS7_FLD_CD
 
   - dimension: ass8_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS8_FLD_CD
 
   - dimension: ass9_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ASS9_FLD_CD
 
   - dimension: away_score_ct
-    type: int
+    type: number
     sql: ${TABLE}.AWAY_SCORE_CT
 
   - dimension: away_team_id
     sql: ${TABLE}.AWAY_TEAM_ID
 
   - dimension: balls_ct
-    type: int
+    type: number
     sql: ${TABLE}.BALLS_CT
 
   - dimension: base1_run_id
@@ -79,25 +79,25 @@
     sql: ${TABLE}.BASE4_FORCE_FL
 
   - dimension: bat_dest_id
-    type: int
+    type: number
     sql: ${TABLE}.BAT_DEST_ID
 
   - dimension: bat_event_fl
     sql: ${TABLE}.BAT_EVENT_FL
 
   - dimension: bat_fate_id
-    type: int
+    type: number
     sql: ${TABLE}.BAT_FATE_ID
 
   - dimension: bat_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.BAT_FLD_CD
 
   - dimension: bat_hand_cd
     sql: ${TABLE}.BAT_HAND_CD
 
   - dimension: bat_home_id
-    type: int
+    type: number
     sql: ${TABLE}.BAT_HOME_ID
 
   - dimension: bat_id
@@ -107,11 +107,11 @@
     sql: ${TABLE}.BAT_IN_HOLD_ID
 
   - dimension: bat_last_id
-    type: int
+    type: number
     sql: ${TABLE}.BAT_LAST_ID
 
   - dimension: bat_lineup_id
-    type: int
+    type: number
     sql: ${TABLE}.BAT_LINEUP_ID
 
   - dimension: bat_on_deck_id
@@ -142,60 +142,60 @@
     sql: ${TABLE}.DP_FL
 
   - dimension: end_bases_cd
-    type: int
+    type: number
     sql: ${TABLE}.END_BASES_CD
 
   - dimension: err1_cd
     sql: ${TABLE}.ERR1_CD
 
   - dimension: err1_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ERR1_FLD_CD
 
   - dimension: err2_cd
     sql: ${TABLE}.ERR2_CD
 
   - dimension: err2_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ERR2_FLD_CD
 
   - dimension: err3_cd
     sql: ${TABLE}.ERR3_CD
 
   - dimension: err3_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.ERR3_FLD_CD
 
   - dimension: err_ct
-    type: int
+    type: number
     sql: ${TABLE}.ERR_CT
 
   - dimension: event_cd
-    type: int
+    type: number
     sql: ${TABLE}.EVENT_CD
 
   - dimension: event_id
-    type: int
+    type: number
     # hidden: true
     sql: ${TABLE}.EVENT_ID
 
   - dimension: event_outs_ct
-    type: int
+    type: number
     sql: ${TABLE}.EVENT_OUTS_CT
 
   - dimension: event_runs_ct
-    type: int
+    type: number
     sql: ${TABLE}.EVENT_RUNS_CT
 
   - dimension: event_tx
     sql: ${TABLE}.EVENT_TX
 
   - dimension: fate_runs_ct
-    type: int
+    type: number
     sql: ${TABLE}.FATE_RUNS_CT
 
   - dimension: fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.FLD_CD
 
   - dimension: fld_id
@@ -218,22 +218,22 @@
     sql: ${TABLE}.GAME_NEW_FL
 
   - dimension: game_pa_ct
-    type: int
+    type: number
     sql: ${TABLE}.GAME_PA_CT
 
   - dimension: h_cd
-    type: int
+    type: number
     sql: ${TABLE}.H_CD
 
   - dimension: home_score_ct
-    type: int
+    type: number
     sql: ${TABLE}.HOME_SCORE_CT
 
   - dimension: home_team_id
     sql: ${TABLE}.HOME_TEAM_ID
 
   - dimension: inn_ct
-    type: int
+    type: number
     sql: ${TABLE}.INN_CT
 
   - dimension: inn_end_fl
@@ -243,69 +243,69 @@
     sql: ${TABLE}.INN_NEW_FL
 
   - dimension: inn_pa_ct
-    type: int
+    type: number
     sql: ${TABLE}.INN_PA_CT
 
   - dimension: inn_runs_ct
-    type: int
+    type: number
     sql: ${TABLE}.INN_RUNS_CT
 
   - dimension: leadoff_fl
     sql: ${TABLE}.LEADOFF_FL
 
   - dimension: outs_ct
-    type: int
+    type: number
     sql: ${TABLE}.OUTS_CT
 
   - dimension: pa_ball_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_BALL_CT
 
   - dimension: pa_called_ball_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_CALLED_BALL_CT
 
   - dimension: pa_called_strike_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_CALLED_STRIKE_CT
 
   - dimension: pa_foul_strike_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_FOUL_STRIKE_CT
 
   - dimension: pa_hitbatter_ball_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_HITBATTER_BALL_CT
 
   - dimension: pa_inplay_strike_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_INPLAY_STRIKE_CT
 
   - dimension: pa_intent_ball_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_INTENT_BALL_CT
 
   - dimension: pa_new_fl
     sql: ${TABLE}.PA_NEW_FL
 
   - dimension: pa_other_ball_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_OTHER_BALL_CT
 
   - dimension: pa_other_strike_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_OTHER_STRIKE_CT
 
   - dimension: pa_pitchout_ball_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_PITCHOUT_BALL_CT
 
   - dimension: pa_strike_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_STRIKE_CT
 
   - dimension: pa_swingmiss_strike_ct
-    type: int
+    type: number
     sql: ${TABLE}.PA_SWINGMISS_STRIKE_CT
 
   - dimension: pa_trunc_fl
@@ -330,15 +330,15 @@
     sql: ${TABLE}.PITCH_SEQ_TX
 
   - dimension: po1_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.PO1_FLD_CD
 
   - dimension: po2_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.PO2_FLD_CD
 
   - dimension: po3_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.PO3_FLD_CD
 
   - dimension: pos2_fld_id
@@ -375,11 +375,11 @@
     sql: ${TABLE}.PR_RUN3_FL
 
   - dimension: rbi_ct
-    type: int
+    type: number
     sql: ${TABLE}.RBI_CT
 
   - dimension: removed_for_ph_bat_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.REMOVED_FOR_PH_BAT_FLD_CD
 
   - dimension: removed_for_ph_bat_id
@@ -416,23 +416,23 @@
     sql: ${TABLE}.RUN1_CS_FL
 
   - dimension: run1_dest_id
-    type: int
+    type: number
     sql: ${TABLE}.RUN1_DEST_ID
 
   - dimension: run1_fate_id
-    type: int
+    type: number
     sql: ${TABLE}.RUN1_FATE_ID
 
   - dimension: run1_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.RUN1_FLD_CD
 
   - dimension: run1_lineup_cd
-    type: int
+    type: number
     sql: ${TABLE}.RUN1_LINEUP_CD
 
   - dimension: run1_origin_event_id
-    type: int
+    type: number
     sql: ${TABLE}.RUN1_ORIGIN_EVENT_ID
 
   - dimension: run1_pk_fl
@@ -454,23 +454,23 @@
     sql: ${TABLE}.RUN2_CS_FL
 
   - dimension: run2_dest_id
-    type: int
+    type: number
     sql: ${TABLE}.RUN2_DEST_ID
 
   - dimension: run2_fate_id
-    type: int
+    type: number
     sql: ${TABLE}.RUN2_FATE_ID
 
   - dimension: run2_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.RUN2_FLD_CD
 
   - dimension: run2_lineup_cd
-    type: int
+    type: number
     sql: ${TABLE}.RUN2_LINEUP_CD
 
   - dimension: run2_origin_event_id
-    type: int
+    type: number
     sql: ${TABLE}.RUN2_ORIGIN_EVENT_ID
 
   - dimension: run2_pk_fl
@@ -492,19 +492,19 @@
     sql: ${TABLE}.RUN3_CS_FL
 
   - dimension: run3_dest_id
-    type: int
+    type: number
     sql: ${TABLE}.RUN3_DEST_ID
 
   - dimension: run3_fate_id
-    type: int
+    type: number
     sql: ${TABLE}.RUN3_FATE_ID
 
   - dimension: run3_fld_cd
-    type: int
+    type: number
     sql: ${TABLE}.RUN3_FLD_CD
 
   - dimension: run3_lineup_cd
-    type: int
+    type: number
     sql: ${TABLE}.RUN3_LINEUP_CD
 
   - dimension: run3_pk_fl
@@ -529,19 +529,19 @@
     sql: ${TABLE}.SH_FL
 
   - dimension: start_bases_cd
-    type: int
+    type: number
     sql: ${TABLE}.START_BASES_CD
 
   - dimension: start_bat_score_ct
-    type: int
+    type: number
     sql: ${TABLE}.START_BAT_SCORE_CT
 
   - dimension: start_fld_score_ct
-    type: int
+    type: number
     sql: ${TABLE}.START_FLD_SCORE_CT
 
   - dimension: strikes_ct
-    type: int
+    type: number
     sql: ${TABLE}.STRIKES_CT
 
   - dimension: tp_fl
@@ -559,4 +559,3 @@
   - measure: count
     type: count
     drill_fields: [run3_origin_event_id, games.game_id, events.run3_origin_event_id, events.count, subs.count]
-

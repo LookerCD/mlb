@@ -35,10 +35,9 @@
 #     sql: ${TABLE}.TEAM_TX
 
   - dimension: year_id
-    type: int
+    type: number
     sql: ${TABLE}.YEAR_ID
 
   - measure: count
     type: count
     drill_fields: [teams.team_id]
-

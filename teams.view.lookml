@@ -20,10 +20,9 @@
     sql: UNHEX(TRIM(BOTH '0D' FROM HEX(${TABLE}.NAME_TEAM_TX)))
 
   - dimension: year_id
-    type: int
+    type: number
     sql: ${TABLE}.YEAR_ID
 
   - measure: count
     type: count
     drill_fields: [team_id, rosters.count]
-

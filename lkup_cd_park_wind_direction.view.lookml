@@ -11,10 +11,9 @@
     sql: ${TABLE}.SHORTNAME_TX
 
   - dimension: value_cd
-    type: int
+    type: number
     sql: ${TABLE}.VALUE_CD
 
   - measure: count
     type: count
     drill_fields: []
-
